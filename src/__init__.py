@@ -23,5 +23,5 @@ gi.require_version('Adw', '1')
 from gi.repository import Gtk, Gdk
 
 css_provider = Gtk.CssProvider()
-css_provider.load_from_resource('/code/leech/PyDemo/gtk/style.css')
+css_provider.load_from_pat('/code/leech/PyDemo/gtk/style.css')
 Gtk.StyleContext.add_provider_for_display(Gdk.Display.get_default(), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
